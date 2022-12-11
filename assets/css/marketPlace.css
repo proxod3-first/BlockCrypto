@@ -131,6 +131,9 @@ p {
     .column {
         flex: 0 50%;
         max-width: 50%;
+
+        /* TODO: chanhe limits on top in Iphone */
+        
         padding: 5em 1em 0.5em;
     }
 }
