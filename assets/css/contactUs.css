@@ -202,8 +202,8 @@ form .form-row .textarea {
         margin: 35px 0 !important;
     }
 
-    .submit-btn .input-data {
-        width: 40% !important;
+    .sub {
+        padding: 5px 15px;
     }
 }
 
@@ -234,6 +234,7 @@ a {
     border-radius: 30px;
     font-size: 22px;
 }
+
 .sub:hover {
     background-color: hsl(142, 43%, 54%);
     color: black;
