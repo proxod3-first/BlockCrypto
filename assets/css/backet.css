@@ -252,6 +252,7 @@ input:focus {
 }
 
 @media (max-width: 410px) {
+    
     a {
         padding: 5px 20px;
         font-size: 25px;

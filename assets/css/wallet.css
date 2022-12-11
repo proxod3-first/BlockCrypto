@@ -207,10 +207,10 @@ a {
     z-index: 100;
 }
 
-@media (max-width: 410px) {
-    a {
-        position: fixed;
-        padding: 5px 20px;
+@media (max-width: 415px) {
+    .prev {
+        position: relative;
+        padding: 0px 0px;
         font-size: 25px;
     }
 }
