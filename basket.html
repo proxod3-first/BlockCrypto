@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+      title
+    -->
+    <title>Your Basket</title>
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/assets/css/backet.css" />
+    <!-- 
+    - favicon
+  -->
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <!-- 
+      jQuery 
+    -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="shopping-cart">
+        <div class="prev">
+            <a href="/index.html" class="previous round">&#8249;</a>
+        </div>
+        
+        <!-- title form -->
+        <span id="your_backet" class="title">
+            Your Basket
+        </span>
+        <!-- Список избранных предметов -->
+        <ul>
+            <!-- Предмет #1 -->
+            <li id="cl_li1">
+                <div class="item">
+                    <div class="quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+                        </button>
+                        <input id="inputs1" type="text" name="name" value="1" readonly>
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+                        </button>
+                    </div>
+                    <div class="description">
+                        <span>Price of</span>
+                        <span>Ethereum</span>
+                        <span>Medium</span>
+                    </div>
+                    <div class="buttons">
+                        <span onclick="handleFilter1()" class="delete-btn"></span>
+                        <span class="like-btn"></span>
+                    </div>
+                    <div id="span1" class="total-price">$10000</div>
+                </div>
+            </li>
+
+            <!-- Предмет #2 -->
+            <li id="cl_li2">
+                <div class="item">
+                    <div class="quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+                        </button>
+                        <input id="inputs2" type="text" name="name" value="1" readonly>
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+                        </button>
+                    </div>
+                    <div class="description">
+                        <span>Price of</span>
+                        <span>Bitcoin</span>
+                        <span>Premium</span>
+                    </div>
+                    <div class="buttons">
+                        <span onclick="handleFilter2()" class="delete-btn"></span>
+                        <span class="like-btn"></span>
+                    </div>
+
+                    <div id="span2" class="total-price">$20000</div>
+                </div>
+            </li>
+
+            <!-- Предмет #3 -->
+            <li id="cl_li3">
+                <div class="item">
+
+                    <div class="quantity">
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+                        </button>
+                        <input id="inputs3" type="text" name="name" value="1" readonly>
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+                        </button>
+                    </div>
+                    <div class="description">
+                        <span>Price of</span>
+                        <span>Tether</span>
+                        <span>Medium</span>
+                    </div>
+                    <div class="buttons">
+                        <span onclick="handleFilter3()" class="delete-btn"></span>
+                        <span class="like-btn"></span>
+                    </div>
+
+                    <div id="span3" class="total-price">$777</div>
+                </div>
+            </li>
+
+            <!-- Предмет #4 -->
+            <li>
+                <div class="item">
+                    <div class="description">
+                        <span>Итого предметов</span>
+                        <span>(кол-во рядом)</span>
+                    </div>
+                    <div id="span4" class="total-price">3</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="/assets/js/for_backet.js"></script>
+</body>
+
+</html>

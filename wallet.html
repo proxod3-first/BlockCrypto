@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/assets/css/wallet.css">
+    <!-- 
+    - favicon
+    -->
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <!-- 
+      title
+     -->
+    <title>Wallet</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="prev">
+            <a href="/index.html" class="previous round">&#8249;</a>
+        </div>
+        <div class="forms">
+            <div class="form login">
+
+                <span class="title">Wallet</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter Email Address" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter Password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+
+                        <a href="#" class="text">Forgot password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Request Wallet">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">You haven't wallet yet?
+                        <a href="#" class="text signup-link">Sign up Now</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Register</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter Your Name" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter Email Adress" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Create Password" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Re-enter Password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">I accepted all terms and conditions 'BlockCrypto'</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Sign up">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Already has wallet?
+                        <a href="#" class="text login-link">Enter Wallet</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/for_wallet.js"></script>
+</body>
+
+</html>
