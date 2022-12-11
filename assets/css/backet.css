@@ -72,14 +72,14 @@ li {
 .delete-btn {
     width: 18px;
     height: 17px;
-    background: url("/delete-icn.svg") no-repeat center;
+    background: url("/assets/images/coin-2.svg") no-repeat center;
 }
 
 .like-btn {
     position: absolute;
     top: 5px;
     left: 25px;
-    background: url('/twitter-heart.png');
+    background: url("/assets/images/coin-3.svg");
     width: 70px;
     height: 70px;
     background-size: 2900%;
