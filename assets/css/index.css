@@ -198,7 +198,7 @@ body.active {
   font-size: var(--fs-6);
   font-weight: var(--fw-500);
   border: 1px solid var(--white);
-  padding: 10px 35px;
+  padding: 10px 40px;
   transition: var(--transition-1);
 }
 
@@ -940,23 +940,27 @@ address.footer-contact-link {
     --fs-2: 3.4rem;
   }
 
+  
   /**
    * REUSED STYLE
    */
-
   .container {
     max-width: 540px;
     width: 100%;
     margin-inline: auto;
   }
+  
+  .btn-outline {
+    padding: 10px 20px;
+  }
 
   /**
    * HERO
    */
-
   .hero-text {
     --fs-5: 2rem;
   }
+
 
 }
 
@@ -980,7 +984,10 @@ address.footer-contact-link {
   .container {
     max-width: 750px;
   }
-
+  
+  .btn-outline {
+    padding: 10px 20px;
+  }
 
   /**
    * HERO
