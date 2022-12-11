@@ -153,6 +153,7 @@ body {
 .checkbox-content input {
     margin-right: 10px;
     accent-color: var(--blue-crayola);
+    
 }
 
 .form .text {
