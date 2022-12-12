@@ -198,7 +198,7 @@ body.active {
   font-size: var(--fs-6);
   font-weight: var(--fw-500);
   border: 1px solid var(--white);
-  padding: 10px 40px;
+  padding: 10px 25px;
   transition: var(--transition-1);
 
 }
