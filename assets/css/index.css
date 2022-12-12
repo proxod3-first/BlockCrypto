@@ -931,9 +931,9 @@ address.footer-contact-link {
 
 
 /**
- * for larger than 284px screen
+ * for larger than 340px screen
  */
-@media (min-width: 284px) {
+@media (min-width: 340px) {
 
   :root {
     --fs-1: 4rem;
@@ -951,7 +951,7 @@ address.footer-contact-link {
   }
 
   .btn-outline {
-    padding: 10px 45px;
+    padding: 10px 20px;
   }
 
   /**
@@ -986,7 +986,7 @@ address.footer-contact-link {
   }
 
   .btn-outline {
-    padding: 10px 50px;
+    padding: 10px 45px;
   }
 
   /**
@@ -1079,6 +1079,7 @@ address.footer-contact-link {
   .container {
     max-width: 960px;
   }
+   
 
   /**
    * HEADER
