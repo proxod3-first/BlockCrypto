@@ -1,7 +1,6 @@
 /**
  * add event on element
  */
-
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
     for (let i = 0; i < elem.length; i++) {
@@ -15,7 +14,6 @@ const addEventOnElem = function (elem, type, callback) {
 /**
  * navbar toggle
  */
-
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const navToggler = document.querySelector("[data-nav-toggler]");
@@ -39,7 +37,6 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 /**
  * header active
  */
-
 const header = document.querySelector("[data-header]");
 
 const activeHeader = function () {
@@ -53,7 +50,7 @@ const activeHeader = function () {
 addEventOnElem(window, "scroll", activeHeader);
 
 /**
- * toggle active on add to fav
+ * toggle active on add
  */
 const addToFavBtns = document.querySelectorAll("[data-add-to-fav]");
 
@@ -82,6 +79,9 @@ scrollReveal();
 
 addEventOnElem(window, "scroll", scrollReveal);
 
+/**
+ * cards effect
+ */
 document.getElementsByClassName("tab-btn")[0].onclick = function () {
   document.getElementsByClassName("tab-btn")[0].classList.add("active");
   document.getElementsByClassName("tab-btn")[1].classList.remove("active");
