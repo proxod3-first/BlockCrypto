@@ -931,9 +931,9 @@ address.footer-contact-link {
 
 
 /**
- * for larger than 375px screen
+ * for larger than 284px screen
  */
-@media (min-width: 375px) {
+@media (min-width: 284px) {
 
   :root {
     --fs-1: 4rem;
