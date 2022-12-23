@@ -173,6 +173,40 @@ form .form-row .textarea {
     z-index: 2;
 }
 
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 23px;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.previous {
+    background-color: hsl(0, 0%, 93%);
+    color: black;
+}
+
+.previous:hover {
+    background-color: #6B40F0;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.sub {
+    float: right;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 11px 35px;
+}
+
+.sub:hover {
+    background-color: hsl(142, 43%, 54%);
+    color: black;
+}
+
 @keyframes slideIn {
     0% {
         transform: translateY(0);
@@ -204,38 +238,6 @@ form .form-row .textarea {
 
     .sub {
         padding: 5px 15px;
+        font-size: 15px;
     }
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 30px;
-    font-size: 30px;
-    z-index: 100;
-}
-
-.previous {
-    background-color: hsl(0, 0%, 93%);
-    color: black;
-}
-
-.previous:hover {
-    background-color: #6B40F0;
-    color: black;
-}
-
-.round {
-    border-radius: 50%;
-}
-
-.sub {
-    float: right;
-    border-radius: 30px;
-    font-size: 22px;
-}
-
-.sub:hover {
-    background-color: hsl(142, 43%, 54%);
-    color: black;
 }
